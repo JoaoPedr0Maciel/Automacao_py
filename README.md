@@ -42,8 +42,14 @@ Certifique-se de revisar as pastas após a execução do script para garantir qu
 Este script Python demonstra como combinar vários arquivos PDF em um único arquivo usando a biblioteca PyPDF2.
 
 ## Pré-requisitos
-
 Certifique-se de ter Python e a biblioteca PyPDF2 instalados em seu ambiente de desenvolvimento. Você pode instalar o PyPDF2 usando o seguinte comando:
 
+
 ```bash
-pip install PyPDF2
+pip install PyPDF
+
+
+Adicione os PDFs que deseja mesclar dentro da pasta "arquivos", após isso...
+Execute o script e o novo PDF mesclado sera gerado no mesmo diretório que você estiver.
+
+
